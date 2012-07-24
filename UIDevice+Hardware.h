@@ -5,7 +5,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface UIDeviceHardware : NSObject 
+@interface UIDevice (Hardware)
 
 - (NSString *) platform;
 - (NSString *) platformString;

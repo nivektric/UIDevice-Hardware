@@ -7,7 +7,7 @@
 #include <sys/types.h>
 #include <sys/sysctl.h>
 
-@implementation UIDeviceHardware
+@implementation UIDevice (Hardware)
 
 - (NSString *) platform{
     size_t size;
